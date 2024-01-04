@@ -1,0 +1,53 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The Flag of the European Union has how many stars on it?",
+      "correct_answer": "12",
+      "incorrect_answers": ["10", "14", "16"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "The drug cartel run by Pablo Escobar originated in which South American city?",
+      "correct_answer": "Medell&iacute;n",
+      "incorrect_answers": ["Bogot&aacute;", "Quito", "Cali"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "According to the nursery rhyme, what fruit did Little Jack Horner pull out of his Christmas pie?",
+      "correct_answer": "Plum",
+      "incorrect_answers": ["Apple", "Peach", "Pear"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Terry Gilliam was an animator that worked with which British comedy group?",
+      "correct_answer": "Monty Python",
+      "incorrect_answers": [
+        "The Goodies&lrm;",
+        "The League of Gentlemen&lrm;",
+        "The Penny Dreadfuls"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which of these Marvel games was released on the Playstation 2?",
+      "correct_answer": "Spider-Man 2",
+      "incorrect_answers": [
+        "Silver Surfer",
+        "Howard the Duck",
+        "Wolverine: Adamantium Rage"
+      ]
+    }
+  ]
+}

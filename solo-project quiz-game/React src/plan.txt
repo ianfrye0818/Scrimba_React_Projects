@@ -1,0 +1,23 @@
+have file to get 5 questions from API and store in JSON data file
+apilink ->  api https://opentdb.com/api.php?amount=5&category=9&difficulty=easy&type=multiple
+
+map over data and create a title and "button" options div for each on -> maybe look into radio buttons for these
+
+create a function that concats the two arrays of the answers but keeps track of the index of the correct answer
+use a library to make the HTML text human readable 
+
+allow users to select answers for each one -> create a state object called answers and store the answer option of each one as a number
+
+
+
+once user clicks 'check answers' ->
+compare the number selected to the index of the correct answer in the array
+highlight the correct answer in green
+if the users answer was not the correct answer highlight user answer in red,
+
+keep track of total number of correct answers and display at the bottom 
+
+create play again button which refreshes the page
+
+
+stretch goals -> allow the user to select a category and number of questions and difficulty on the main screen
