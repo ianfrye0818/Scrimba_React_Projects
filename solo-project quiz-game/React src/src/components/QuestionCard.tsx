@@ -23,24 +23,25 @@ const QuestionCard: React.FC<QuestionCardProps> = (props) => {
       <h2>
         {props.questionNumber}. {decode(props.question)}
       </h2>
-      <ul className='answer-list'>
+      <ul className="answer-list">
         {props.answers.map((answer, index) => (
-          <li
-            key={answer}
-            className={`
+          <li key={answer}>
+            <label
+              htmlFor={answer}
+              className={`
               answer-list-item 
               ${selectedAnswer === answer && 'selected'} ${
-              props.correctAnswer === answer && props.submitted && 'correct'
-            } ${
-              props.correctAnswer !== answer &&
-              props.submitted &&
-              selectedAnswer === answer &&
-              'incorrect'
-            } `}
-          >
-            <label>
+                props.correctAnswer === answer && props.submitted && 'correct'
+              } ${
+                props.correctAnswer !== answer &&
+                props.submitted &&
+                selectedAnswer === answer &&
+                'incorrect'
+              } `}
+            >
               <input
-                type='radio'
+                id={answer}
+                type="radio"
                 name={`question-${props.questionNumber}`}
                 value={answer}
                 checked={selectedAnswer === answer}
