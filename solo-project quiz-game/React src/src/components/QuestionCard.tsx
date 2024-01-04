@@ -27,7 +27,7 @@ const QuestionCard: React.FC<QuestionCardProps> = (props) => {
         {props.answers.map((answer, index) => (
           <li key={answer}>
             <label
-              htmlFor={answer}
+              htmlFor={props.questionNumber + answer}
               className={`
               answer-list-item 
               ${selectedAnswer === answer && 'selected'} ${
@@ -40,7 +40,7 @@ const QuestionCard: React.FC<QuestionCardProps> = (props) => {
               } `}
             >
               <input
-                id={answer}
+                id={props.questionNumber + answer}
                 type="radio"
                 name={`question-${props.questionNumber}`}
                 value={answer}
